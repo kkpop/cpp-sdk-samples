@@ -11,7 +11,7 @@ before_build:
     nuget restore affdex-win-samples.sln
 build:
   parallel: true
-  verbosity: minimal
+  verbosity: detailed
 artifacts:
 - path: '\x64\Release'
 deploy:
