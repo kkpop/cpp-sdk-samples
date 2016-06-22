@@ -13,7 +13,7 @@ build:
   parallel: true
   verbosity: minimal
 artifacts:
-- path: '\Release'
+- path: '\x64\Release'
 deploy:
 - provider: GitHub
   release: 3.1
